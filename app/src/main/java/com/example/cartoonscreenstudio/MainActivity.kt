@@ -188,7 +188,7 @@ private fun StudioScreen(
                             Spacer(Modifier.width(10.dp))
                             Text(if (recording) "إيقاف التسجيل" else "بدء تسجيل الشاشة", fontSize = 17.sp, fontWeight = FontWeight.Bold)
                         }
-                        if (recording) Text("التسجيل جارٍ الآن…", color = Cyan, modifier = Modifier.align(Alignment.CenterHorizontally))
+                        if (recording) Text("...التسجيل جار الآن...", color = Cyan, modifier = Modifier.fillMaxWidth())
                     }
                 }
                 1 -> {
