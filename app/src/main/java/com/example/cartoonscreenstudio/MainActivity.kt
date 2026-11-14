@@ -1,5 +1,5 @@
 package com.example.cartoonscreenstudio
-
+import androidx.activity.compose.setContent
 import android.Manifest
 import android.content.Context
 import android.content.Intent
